@@ -19,7 +19,9 @@ export default function HeroRAF26() {
   return (
     <section className="relative w-full overflow-hidden bg-gradient-to-br from-raf-red via-red to-raf-blue text-white">
       {/* Arrière-plan */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pointer-events-none
+  bg-[radial-gradient(ellipse_at_center,rgba(255,50,50,0)_0%,rgba(255,50,50,0.15)_60%,rgba(255,50,50,0.25)_100%)]"
+      >
         <div
           className="absolute inset-0 bg-[url('/images/map.jpg')] bg-cover bg-center opacity-20 scale-105"
           style={{ transform: `scale(${1 + scrollY * 0.0002})` }}
@@ -140,7 +142,7 @@ export default function HeroRAF26() {
               {/* Boutons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <a href="#modalite"
-                
+
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-raf-red via-red-600 to-raf-red text-white font-bold text-base px-6 py-3 rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-primary active:scale-95">
                   <span className="relative z-10">S'inscrire au RAF26</span>
                   <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
