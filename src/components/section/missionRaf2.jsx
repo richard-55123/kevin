@@ -169,9 +169,7 @@ export function AfterRAF() {
                                         Places limitées – Inscrivez-vous dès maintenant
                                     </p>
                                 </div>
-                                <a href="https://ccca.mykajabi.com/offers/Lge5Rdqn/checkout"
-                                    target="_blank"
-                                    rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-gradient-to-r from-raf-gold to-yellow-500 text-raf-dark font-bold px-8 py-4 rounded-2xl hover:scale-105 transition">
+                                <a  href="#modalite" className="inline-flex items-center gap-3 bg-gradient-to-r from-raf-gold to-yellow-500 text-raf-dark font-bold px-8 py-4 rounded-2xl hover:scale-105 transition">
 
                                     <span>S'inscrire aux missions</span>
                                     <ArrowRight className="w-5 h-5" />

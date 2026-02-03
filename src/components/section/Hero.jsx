@@ -139,9 +139,8 @@ export default function HeroRAF26() {
 
               {/* Boutons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <a href="https://ccca.mykajabi.com/offers/NY39Novi/checkout"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <a href="#modalite"
+                
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-raf-red via-red-600 to-raf-red text-white font-bold text-base px-6 py-3 rounded-xl shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-primary active:scale-95">
                   <span className="relative z-10">S'inscrire au RAF26</span>
                   <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />

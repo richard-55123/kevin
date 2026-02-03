@@ -21,8 +21,7 @@ export function ContactRAF26() {
 
                 <div className="bg-white/10 backdrop-blur-xl p-10 rounded-4xl">
                     <h3 className="text-xl font-semibold mb-6">S’inscrire maintenant</h3>
-                    <a href="https://ccca.mykajabi.com/offers/NY39Novi/checkout"
-                        target="_blank"
+                    <a href="#modalite"
 
                         rel="noopener noreferrer" className="w-full bg-raf-red py-4 rounded-2xl font-semibold flex items-center justify-center gap-2">
                         Je m’inscris au RAF26 <ArrowRight className="w-4 h-4" />
