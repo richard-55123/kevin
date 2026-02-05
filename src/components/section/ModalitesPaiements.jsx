@@ -29,7 +29,7 @@ export function ModalitesPayementsRAF() {
                             <span className="font-semibold">820 USD</span>
                         </div>
 
-                        <div className="flex justify-between items-center border-b border-gray-200 pb-3">
+                        {/* <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais de Visa + Biométrie</span>
                             <span className="font-semibold">270 USD</span>
                         </div>
@@ -37,14 +37,14 @@ export function ModalitesPayementsRAF() {
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais de représentation</span>
                             <span className="font-semibold">600 USD</span>
-                        </div>
+                        </div> */}
 
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais de transport</span>
                             <span className="font-semibold">535 USD <span className="text-sm text-gray-500">(optionnel)</span></span>
                         </div>
 
-                        <div className="flex justify-between items-center border-b border-gray-200 pb-3">
+                        {/* <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais de transfert de fonds</span>
                             <span className="font-semibold">200 USD</span>
                         </div>
@@ -52,11 +52,11 @@ export function ModalitesPayementsRAF() {
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais d’assistance Visa / Honoraires</span>
                             <span className="font-semibold">1 800 USD</span>
-                        </div>
+                        </div> */}
 
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais de réservation d’hôtel (1 nuitée)</span>
-                            <span className="font-semibold">Selon le choix</span>
+                            <span className="font-semibold">Selon le choix <span className="text-sm text-gray-500">(optionnel)</span></span>
                         </div>
 
                     </div>
@@ -96,12 +96,12 @@ export function ModalitesPayementsRAF() {
                         >
                             <div className="rounded-3xl border border-gray-200 shadow-soft overflow-hidden hover:scale-[1.02] transition">
                                 <div className="bg-raf-red text-raf-white text-center py-4 font-bold text-lg">
-                                    Frais d’inscription RAF 26 + taxes ; Frais de visa
+                                    Frais d’inscription RAF 26 + taxes
                                 </div>
 
                                 <div className="p-6 text-center">
                                     <div className="text-3xl md:text-4xl font-bold text-raf-dark mb-3">
-                                        1 090 USD
+                                        820 USD
                                     </div>
                                     <p className="text-gray-600 font-medium">
                                         Au plus tard le 05 Février 2026
@@ -132,7 +132,7 @@ export function ModalitesPayementsRAF() {
                             </div>
                         </a>
 
-                        <a
+                        {/* <a
                             href="https://ccca.mykajabi.com/offers/BepUibHq/checkout"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -140,7 +140,7 @@ export function ModalitesPayementsRAF() {
                         >
                             <div className="rounded-3xl border border-gray-200 shadow-soft overflow-hidden hover:scale-[1.02] transition">
                                 <div className="bg-raf-red text-raf-white text-center py-4 font-bold text-lg px-4">
-                                    Honoraires + frais de représentation
+                                    Honoraires + frais de représentation ---
                                 </div>
 
                                 <div className="p-6 text-center">
@@ -152,7 +152,7 @@ export function ModalitesPayementsRAF() {
                                     </p>
                                 </div>
                             </div>
-                        </a>
+                        </a> */}
 
                     </div>
 
