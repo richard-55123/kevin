@@ -21,7 +21,7 @@ export function ModalitesPayementsRAF() {
 
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
                             <span>Frais d’inscription RAF 26 + Taxes</span>
-                            <span className="font-semibold">820 USD</span>
+                            <span className="font-semibold">800 USD</span>
                         </div>
 
                         <div className="flex justify-between items-center border-b border-gray-200 pb-3">
@@ -101,7 +101,7 @@ export function ModalitesPayementsRAF() {
 
                                 <div className="p-6 text-center">
                                     <div className="text-3xl md:text-4xl font-bold text-raf-dark mb-3">
-                                        820 USD
+                                        800 USD
                                     </div>
                                     <p className="text-gray-600 font-medium">
                                         Au plus tard le 05 Février 2026

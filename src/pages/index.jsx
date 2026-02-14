@@ -17,7 +17,7 @@ export const Home = () => {
             <ObjectivesRAF26 />
             <AfterRAF />
             <MissionProgram />
-            <PricingRAF26 />
+            {/* <PricingRAF26 /> */}
             <Accommodations />
             <ModalitesPayementsRAF />
             <RefundPolicy />
